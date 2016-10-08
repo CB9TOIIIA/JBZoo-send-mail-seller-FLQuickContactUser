@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="flquickcontactuser" group="Social">
+	<name>FL Quick Contact User</name>
+	<author>CB9TOIIIA</author>
+	<creationDate>December 2015</creationDate>
+	<authorEmail>cb9toiiia@gmail.com</authorEmail>
+	<authorUrl>http://cb9t.ru</authorUrl>
+	<version>1.0</version>
+	<description>FL Quick Contact element user to customer. Big THX - FICTIONLABS.RU и Дмитрий Васюков </description>
+	<params>
+		<param name="email" type="text" default="" label="Site email (for no user articles)" description="Email to user send"></param>
+		<param name="success_notice" type="text" default="Email was sent successfully." label="Sucess notice" description="Success notice"></param>
+		<param name="error_notice" type="text" default="Email could not be sent." label="Error notice" description="Error notice"></param>
+		<param name="captcha" type="radio" default="0" label="Enable Captcha" description="Enable/Disable Captcha" >
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</param>
+		<param name="captcha_question" type="text" default="3 + 4 = ?" label="Captcha Question" description="Captcha Question"></param>
+		<param name="captcha_answer" type="text" default="7" label="Captcha Answer" description="Captcha Answer"></param>
+		<param name="captcha_error" type="text" default="You have entered wrong captcha. Please try again." label="Captcha Error" description="Captcha Error"></param>
+	</params>
+</element>
